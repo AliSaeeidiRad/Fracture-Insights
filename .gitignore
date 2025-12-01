@@ -1,0 +1,9 @@
+__pycache__/
+.tmp/
+.venv/
+*.pdf
+*.tiff
+*.tif
+output/
+output_vtks/
+output_paraview/
