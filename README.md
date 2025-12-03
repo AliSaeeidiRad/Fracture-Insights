@@ -116,7 +116,7 @@ paper
 Ensure `conda` is installed, then:
 
 ```bash
-   conda create -n fracture-insights python=3.10.6
+   conda create -n fracture-insights python=3.10
    conda activate fracture-insights
 ```
 
@@ -142,7 +142,7 @@ Ensure `uv` is installed, then:
    Execute the data processing and clustering pipeline:
 
    ```bash
-   python script.py --dir-curves Dataset/Curves --t 4 --alpha 1.0 --beta 1.0 --output output --sample-stl Dataset/Sample/Sample.stl
+   python main.py --dir-curves Dataset/Curves --t 4 --alpha 1.0 --beta 1.0 --output output --sample-stl Dataset/Sample/Sample.stl
    ```
 
    Additional flags:
