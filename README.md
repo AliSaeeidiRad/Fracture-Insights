@@ -41,14 +41,13 @@ Key outcomes include:
 │   ├── Curves/             # Extracted fracture curves
 │   ├── Sample/             # Sample STL model
 │   └── STL/                # Tibial and fracture segmentations
-├── figures/                # Scripts for generating visualizations
-paper
+├── figures/                # Scripts for generating visualizations paper
 ├── output/                 # Clustered outputs and similarity matrices
 ├── pc/                     # Python scripts for clustering and similarity computation
 ├── output_vtks/            # VTK outputs for 3D visualizations
-├── poetry.lock             # Poetry dependency lockfile
+├── uv.lock             # Poetry dependency lockfile
 ├── pyproject.toml          # Poetry project configuration
-└── script.py               # Main script to execute the workflow
+└── main.py               # Main script to execute the workflow
 ```
 
 ---
